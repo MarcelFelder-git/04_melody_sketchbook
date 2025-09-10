@@ -1,0 +1,27 @@
+{
+    "C3": "./mp3/piano/piano_c3.mp3",
+    "C#3": "./mp3/piano/piano_c3_sharp.mp3",
+    "D3": "./mp3/piano/piano_d3.mp3",
+    "D#3": "./mp3/piano/piano_d3_sharp.mp3",
+    "E3": "./mp3/piano/piano_e3.mp3",
+    "F3": "./mp3/piano/piano_f3.mp3",
+    "F#3": "./mp3/piano/piano_f3_sharp.mp3",
+    "G3": "./mp3/piano/piano_g3.mp3",
+    "G#3": "./mp3/piano/piano_g3_sharp.mp3",
+    "A3": "./mp3/piano/piano_a3.mp3",
+    "Bb3": "./mp3/piano/piano_b3_flat.mp3",
+    "B3": "./mp3/piano/piano_b3.mp3",
+    "C4": "./mp3/piano/piano_c4.mp3",
+    "C#4": "./mp3/piano/piano_c4_sharp.mp3",
+    "D4": "./mp3/piano/piano_d4.mp3",
+    "D#4": "./mp3/piano/piano_d4_sharp.mp3",
+    "E4": "./mp3/piano/piano_e4.mp3",
+    "F4": "./mp3/piano/piano_f4.mp3",
+    "F#4": "./mp3/piano/piano_f4_sharp.mp3",
+    "G4": "./mp3/piano/piano_g4.mp3",
+    "G#4": "./mp3/piano/piano_g4_sharp.mp3",
+    "A4": "./mp3/piano/piano_a4.mp3",
+    "Bb4": "./mp3/piano/piano_b4_flat.mp3",
+    "B4": "./mp3/piano/piano_b4.mp3"
+  }
+  

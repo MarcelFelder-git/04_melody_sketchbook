@@ -1,0 +1,89 @@
+<!doctype html>
+
+<html lang = "en" >
+	<head>
+		<link rel="manifest" href="manifest.json">
+		<meta charset = "utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Melody Sketchbook</title>
+		<link href = "css/style.css" rel = "stylesheet">
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="apple-mobile-web-app-title" content="Sequenzer PWA">
+		<meta name="description" content="A sample Sequenzer app">
+		<link rel="apple-touch-icon" href="/images/icons/icon-152x152.png">
+		<script src = "js/app.js" type = "module" defer></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+		<div id = "wrapper">	
+			<h1>Melody Sketchbook </h1>
+			<button id="new-melody">New Melody</button>
+			<div id = "gui">
+				<div id="left-container">
+					<div id="left-content">
+						<div id = "titelinfo">
+							<p id = "sample-titel">Titel:</p>
+						</div>
+						<div id = "db-btns">	
+							<button id = "save">Save</button>
+							<button id = "load">Load</button>
+							<button class="add-button">Install </button>
+						</div>
+						<div id="instrument-select">
+							<label for="instrument">Choose an Instrument:</label>
+							<select id="instrument" name="instrument">
+								<option value="piano">Piano</option>
+								<option value="oscillator">Oszillator (Synthesizer)</option>
+							</select>
+						</div>
+						<div> 
+							<canvas width="450" height="200" id="draw-canvas"></canvas>
+						</div>
+						<div class="play-controls">
+							<label for="scale-selection">Choose a Scale:</label>
+							<select id="scale-selection"></select>
+							<button id = "play-melody">Play Melody</button>
+							<button id = "stop-melody">Stop Melody</button>
+						</div>
+					</div>
+				</div>
+
+				<div id="right-container">
+					<div id="right-content">
+						<div id="drop-area" class="drop-zone">
+							<p id="drop-text">Drag your backing track here</p>
+							<input type="file" id="fileInput" accept="audio/*" style="display: none;">
+							<button id="select-file-button">Select a track</button>
+						</div>
+						<canvas id="frequency-visualization" width="450" height="200"></canvas>
+						<div class="backtrack-controls">
+							<button id="play-backtrack" disabled>Play Backing Track</button>
+							<button id="stop-backtrack" disabled>Pause Backing Track</button>
+							<button id="load-new-backtrack" style="display: none;">Load New Backing Track</button>
+						</div>
+						<div class="volume-slider">
+							<label for="volume">Volume:</label>
+							<input type="range" id="volume" min="0" max="1" step="0.01" value="0.1">
+						</div>
+						<div id="key-detection">
+							<h2>Key Detection (Beta)</h2>
+							<button id="analyze-btn">Analyze Key</button>
+							<p id="key-output">Detected Key: -</p>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>	
+	
+		<!-- Abteilung Sample speichern - lesen	 -->
+	
+		<div id = "db-area" class = "area-passiv"></div>
+		
+	
+	</body>
+</html>
