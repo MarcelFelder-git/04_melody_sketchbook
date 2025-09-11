@@ -28,7 +28,10 @@ Save, load, and play your melodies, or write along with a backing track – all 
 </p>
 
 ### GIF Demo
-<img src="melody_sketchbook_gif.gif" alt="Melody Sketchbook Demo GIF" width="100%"/>
+<img src="melody_sketchbook_gif_final.gif" alt="Melody Sketchbook Demo GIF" width="100%"/>
+
+### YouTube Demo Video
+[Watch the Demo on YouTube](https://youtu.be/zcmVr0ewzcM)
 
 ---
 
