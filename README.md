@@ -1,8 +1,6 @@
 ![Melody Sketchbook](melody_sketchbook_title.png)  
 
-# 🎵 Melody Sketchbook
-
-## 📑 Table of Contents
+## Table of Contents
 - [Short Description](#short-description)  
 - [Showcase](#showcase)  
 - [Key Features](#key-features)  
