@@ -85,7 +85,7 @@ Save, load, and play your melodies, or write along with a backing track – all 
 ## Live Demo
 Try out **Melody Sketchbook** here:  
 
-[Melody Sketchbook on Vercel](https://melody-sketchbook.vercel.app/)  
+[Melody Sketchbook on Vercel](https://04-melody-sketchbook.vercel.app/)
 
 ---
 
