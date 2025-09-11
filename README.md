@@ -63,12 +63,12 @@ Save, load, and play your melodies, or write along with a backing track – all 
 ## Getting Started (Local Setup)
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/MarcelFelder-git/melody-sketchbook
+   git clone https://github.com/MarcelFelder-git/04_melody_sketchbook
    ````
 
 2. Navigate to the project directory:
    ```bash
-   cd melody-sketchbook
+   cd 04_melody_sketchbook
    ````
 
 3. Open the project with a local server (recommended: Live Server
